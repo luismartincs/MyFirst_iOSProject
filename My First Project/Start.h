@@ -10,6 +10,8 @@
 
 @interface Start : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *labelMessage;
+
 
 @end
 
