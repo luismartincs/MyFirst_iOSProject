@@ -27,4 +27,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button1Action:(id)sender {
+    _labelMessage.text=@"Button 1 Pressed";
+}
+
+- (IBAction)button2Action:(id)sender {
+    _labelMessage.text=@"Button 2 Pressed";
+}
+
 @end

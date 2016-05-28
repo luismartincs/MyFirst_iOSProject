@@ -12,6 +12,12 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *labelMessage;
 
+@property (strong, nonatomic) IBOutlet UIButton *button1;
+@property (strong, nonatomic) IBOutlet UIButton *button2;
+
+
+- (IBAction)button1Action:(id)sender;
+- (IBAction)button2Action:(id)sender;
 
 @end
 
