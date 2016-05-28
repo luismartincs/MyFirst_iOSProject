@@ -29,10 +29,12 @@
 
 - (IBAction)button1Action:(id)sender {
     _labelMessage.text=@"Button 1 Pressed";
+    _logos.image = [UIImage imageNamed:@"android.jpg"];
 }
 
 - (IBAction)button2Action:(id)sender {
     _labelMessage.text=@"Button 2 Pressed";
+    _logos.image = [UIImage imageNamed:@"apple.png"];
 }
 
 @end

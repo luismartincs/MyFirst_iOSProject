@@ -36,6 +36,10 @@
                                     <action selector="button2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dRM-Ce-3bG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="android.jpg" id="wpc-B9-FRx">
+                                <rect key="frame" x="90" y="245" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -43,6 +47,7 @@
                         <outlet property="button1" destination="XbR-Oe-Iex" id="4IR-Je-A8x"/>
                         <outlet property="button2" destination="d2f-OO-pjf" id="rQe-W1-fHC"/>
                         <outlet property="labelMessage" destination="qJt-lx-oPK" id="oN0-80-5hj"/>
+                        <outlet property="logos" destination="wpc-B9-FRx" id="e5s-Zu-hxs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -50,4 +55,7 @@
             <point key="canvasLocation" x="130" y="319"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="android.jpg" width="334" height="393"/>
+    </resources>
 </document>

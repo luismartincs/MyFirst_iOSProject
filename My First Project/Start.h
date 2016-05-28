@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *button1;
 @property (strong, nonatomic) IBOutlet UIButton *button2;
+@property (strong, nonatomic) IBOutlet UIImageView *logos;
 
 
 - (IBAction)button1Action:(id)sender;
