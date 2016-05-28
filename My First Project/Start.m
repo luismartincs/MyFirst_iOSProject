@@ -37,7 +37,7 @@
     _count--;
     
     if(_count <= 0){
-        _count = [_images count] -1;
+        _count = [_images count]-1;
     }
 }
 
