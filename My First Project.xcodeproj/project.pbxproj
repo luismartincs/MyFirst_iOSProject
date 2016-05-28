@@ -16,6 +16,7 @@
 		A09DBF821CF9103F008FFDA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09DBF801CF9103F008FFDA0 /* LaunchScreen.storyboard */; };
 		A09DBF8E1CF92307008FFDA0 /* android.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A09DBF8C1CF92307008FFDA0 /* android.jpg */; };
 		A09DBF8F1CF92307008FFDA0 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = A09DBF8D1CF92307008FFDA0 /* apple.png */; };
+		A09DBF911CF92852008FFDA0 /* windows.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A09DBF901CF92852008FFDA0 /* windows.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A09DBF831CF9103F008FFDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A09DBF8C1CF92307008FFDA0 /* android.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = android.jpg; sourceTree = "<group>"; };
 		A09DBF8D1CF92307008FFDA0 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		A09DBF901CF92852008FFDA0 /* windows.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windows.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A09DBF8C1CF92307008FFDA0 /* android.jpg */,
+				A09DBF901CF92852008FFDA0 /* windows.jpg */,
 				A09DBF8D1CF92307008FFDA0 /* apple.png */,
 			);
 			name = Images;
@@ -175,6 +178,7 @@
 				A09DBF7A1CF9103F008FFDA0 /* Main.storyboard in Resources */,
 				A09DBF8E1CF92307008FFDA0 /* android.jpg in Resources */,
 				A09DBF8F1CF92307008FFDA0 /* apple.png in Resources */,
+				A09DBF911CF92852008FFDA0 /* windows.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

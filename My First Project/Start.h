@@ -16,6 +16,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *button2;
 @property (strong, nonatomic) IBOutlet UIImageView *logos;
 
+@property (nonatomic,strong) NSArray *images;
+@property (nonatomic) NSInteger count;
 
 - (IBAction)button1Action:(id)sender;
 - (IBAction)button2Action:(id)sender;
